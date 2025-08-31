@@ -27,6 +27,14 @@ function RAScript(hljs) {
                 begin: /\b(true|false)\b/
             },
             {
+                className: 'operator',
+                begin: /(\|\||\&\&|\=\=|\!\=|\>\=|\<\=)/,
+            },
+            {
+                scope: 'operator',
+                match: /[^\=][\+\-\*\/\%\^\&\^\~\>\<\!\|]/,
+            },      
+            {
                 begin: [
                     /function[\t ]+/,
                     /[a-zA-Z_][\w]*/,
