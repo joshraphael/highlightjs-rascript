@@ -3,7 +3,7 @@
  * Contributors:
  *   Joshua Raphael
  */
-function RAScript(hljs) {
+export default function(hljs) {
     return {
         case_insensitive: false,
         contains: [

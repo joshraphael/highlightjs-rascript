@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-<script src="src/rascript.js"></script>
-<script>
-    hljs.registerLanguage('rascript', RAScript);
+<script type="module">
+    import rascript from "./src/rascript.js";
+    hljs.registerLanguage("rascript", rascript);
     hljs.initHighlightingOnLoad();
 </script>
 <pre>
