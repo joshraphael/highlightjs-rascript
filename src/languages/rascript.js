@@ -3,6 +3,7 @@ Language: RAScript
 Author: Joshua Raphael
 Description: Syntax grammar for RAScript, a RetroAchievements.org DSL
 Category: syntax
+Version: v0.2.0
 */
 export default function(hljs) {
     return {

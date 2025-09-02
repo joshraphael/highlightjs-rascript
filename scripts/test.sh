@@ -5,6 +5,11 @@ bash ./scripts/setup.sh
 export PLAYGROUND="playground"
 export HIGHLIGHTJS_RASCRIPT="${PLAYGROUND}/extra/highlightjs-rascript"
 
+diff -q "src/languages/rascript.js" "${PLAYGROUND}/rascript.js"
+if [ $? -ne 0 ]; then
+    exit 1
+fi
+
 cd ${PLAYGROUND}
 node ./tools/build.js -t cdn
 npm run build_and_test
