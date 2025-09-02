@@ -1,8 +1,9 @@
-/**
- * Language: RAScript
- * Contributors:
- *   Joshua Raphael
- */
+/*
+Language: RAScript
+Author: Joshua Raphael
+Description: Syntax grammar for RAScript, a RetroAchievements.org DSL
+Category: syntax
+*/
 export default function(hljs) {
     return {
         case_insensitive: false,

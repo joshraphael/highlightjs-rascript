@@ -16,3 +16,7 @@ diff -q "dist/rascript.min.js" "${HIGHLIGHTJS_RASCRIPT}/dist/rascript.min.js"
 if [ $? -ne 0 ]; then
     exit 1
 fi
+diff -q "dist/rascript.es.min.js" "${HIGHLIGHTJS_RASCRIPT}/dist/rascript.es.min.js"
+if [ $? -ne 0 ]; then
+    exit 1
+fi
