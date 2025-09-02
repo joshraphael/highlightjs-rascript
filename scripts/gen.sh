@@ -5,14 +5,9 @@ bash ./scripts/setup.sh
 export PLAYGROUND="playground"
 export HIGHLIGHTJS_RASCRIPT="${PLAYGROUND}/extra/highlightjs-rascript"
 
+rm -rf dist
+mkdir -p dist
 cd ${PLAYGROUND}
 node ./tools/build.js -t cdn
-npm run build_and_test
-if [ $? -ne 0 ]; then
-    exit 1
-fi
 cd ..
-diff -q "dist/rascript.min.js" "${HIGHLIGHTJS_RASCRIPT}/dist/rascript.min.js"
-if [ $? -ne 0 ]; then
-    exit 1
-fi
+cp -r ${HIGHLIGHTJS_RASCRIPT}/dist/*.js dist

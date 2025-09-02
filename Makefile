@@ -8,3 +8,6 @@ run:
 
 test:
 	bash ./scripts/test.sh
+
+gen:
+	bash ./scripts/gen.sh
