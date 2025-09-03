@@ -13,3 +13,4 @@ cp -r src ${HIGHLIGHTJS_RASCRIPT}
 cp -r test ${HIGHLIGHTJS_RASCRIPT}
 cd ${PLAYGROUND}
 npm ci
+node ./tools/build.js -t cdn

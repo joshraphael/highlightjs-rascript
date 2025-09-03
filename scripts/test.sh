@@ -11,7 +11,6 @@ if [ $? -ne 0 ]; then
 fi
 
 cd ${PLAYGROUND}
-node ./tools/build.js -t cdn
 npm run build_and_test
 if [ $? -ne 0 ]; then
     exit 1
