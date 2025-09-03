@@ -5,7 +5,7 @@ bash ./scripts/setup.sh
 export PLAYGROUND="playground"
 export HIGHLIGHTJS_RASCRIPT="${PLAYGROUND}/extra/highlightjs-rascript"
 
-cp ${PLAYGROUND}/rascript.js src/languages
+cp rascript-upstream.js src/languages/rascript.js
 
 rm -rf dist
 mkdir -p dist

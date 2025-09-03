@@ -5,7 +5,7 @@ bash ./scripts/setup.sh
 export PLAYGROUND="playground"
 export HIGHLIGHTJS_RASCRIPT="${PLAYGROUND}/extra/highlightjs-rascript"
 
-diff -q "src/languages/rascript.js" "${PLAYGROUND}/rascript.js"
+diff -q "src/languages/rascript.js" "rascript-upstream.js"
 if [ $? -ne 0 ]; then
     exit 1
 fi
