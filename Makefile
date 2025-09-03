@@ -11,3 +11,7 @@ test:
 
 gen:
 	bash ./scripts/gen.sh
+
+clean:
+	rm -rf plyground
+	rm rascript-upstream.js
