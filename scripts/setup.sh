@@ -7,6 +7,9 @@ export RASCRIPT_SYNTAX_VERSION="v0.2.0"
 rm -rf ${PLAYGROUND}
 mkdir -p ${PLAYGROUND}
 git clone https://github.com/highlightjs/highlight.js ${PLAYGROUND}
+cd ${PLAYGROUND}
+git checkout tags/11.11.1
+cd ..
 wget -O rascript-upstream.js "https://github.com/joshraphael/rascript-syntax/releases/download/${RASCRIPT_SYNTAX_VERSION}/rascript.js"
 mkdir -p ${HIGHLIGHTJS_RASCRIPT}
 cp -r src ${HIGHLIGHTJS_RASCRIPT}
