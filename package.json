@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshraphael/highlightjs-rascript.git"
+    "url": "git+https://github.com/joshraphael/highlightjs-rascript.git"
   },
   "keywords": [
     "rascript",
@@ -18,9 +18,9 @@
     "syntax"
   ],
   "files": [
-		"dist",
-		"src"
-	],
+    "dist",
+    "src"
+  ],
   "author": "Joshua Raphael",
   "license": "MIT",
   "bugs": {
