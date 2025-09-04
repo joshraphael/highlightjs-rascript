@@ -1,0 +1,9 @@
+<span class="hljs-comment">/**
+ * This is a test comment
+ * It crosses multiple lines
+ * RAScript supports multiple types of comments
+ **/</span>
+
+<span class="hljs-comment">// This is the second form, a single line comment</span>
+
+<span class="hljs-variable">non_comment</span> = <span class="hljs-string">&quot;this is not part of the comment&quot;</span>
