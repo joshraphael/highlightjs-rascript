@@ -2,7 +2,7 @@
 
 export PLAYGROUND="playground"
 export HIGHLIGHTJS_RASCRIPT="${PLAYGROUND}/extra/highlightjs-rascript"
-export RASCRIPT_SYNTAX_VERSION="v0.2.0"
+export RASCRIPT_SYNTAX_VERSION="v0.3.0"
 export HIGHLIGHTJS_VERSION="11.11.1"
 
 rm -rf ${PLAYGROUND}
