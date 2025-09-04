@@ -1,0 +1,12 @@
+class Test
+{
+    t_test = 0
+
+    function DoSomething(arg1, arg2) {
+        this.t_test = arg1 + arg2
+    }
+
+    function GetSomething() {
+        return this.t_test
+    }
+}
