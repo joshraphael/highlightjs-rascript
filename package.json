@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-rascript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "highlight.js syntax definition for RATools DSL, RAScript",
   "main": "src/languages/rascript.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshraphael/highlightjs-rascript.git"
+    "url": "https://github.com/joshraphael/highlightjs-rascript.git"
   },
   "keywords": [
     "rascript",
@@ -17,6 +17,10 @@
     "highlightjs",
     "syntax"
   ],
+  "files": [
+		"dist",
+		"src"
+	],
   "author": "Joshua Raphael",
   "license": "MIT",
   "bugs": {
