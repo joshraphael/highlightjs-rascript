@@ -1,0 +1,9 @@
+/**
+ * This is a test comment
+ * It crosses multiple lines
+ * RAScript supports multiple types of comments
+ **/
+
+// This is the second form, a single line comment
+
+non_comment = "this is not part of the comment"

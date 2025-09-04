@@ -2,16 +2,17 @@
   "name": "highlightjs-rascript",
   "version": "0.0.0",
   "description": "highlight.js syntax definition for RATools DSL, RAScript",
-  "main": "src/rascript.js",
+  "main": "src/languages/rascript.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshraphael/highlightjs-rascript.git"
+    "url": "git+https://github.com/joshraphael/highlightjs-rascript.git"
   },
   "keywords": [
     "rascript",
+    "hljs",
     "highlight.js",
     "highlightjs",
     "syntax"
