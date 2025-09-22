@@ -11,6 +11,8 @@
     "url": "git+https://github.com/joshraphael/highlightjs-rascript.git"
   },
   "keywords": [
+    "retroachievements",
+    "ratools",
     "rascript",
     "hljs",
     "highlight.js",
