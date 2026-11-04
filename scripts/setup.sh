@@ -2,8 +2,8 @@
 
 export PLAYGROUND="playground"
 export HIGHLIGHTJS_RASCRIPT="${PLAYGROUND}/extra/highlightjs-rascript"
-export RASCRIPT_SYNTAX_VERSION="v0.4.2"
-export HIGHLIGHTJS_VERSION="11.11.1"
+export RASCRIPT_SYNTAX_VERSION="v0.5.1"
+export HIGHLIGHTJS_VERSION="11.12.0"
 
 rm -rf ${PLAYGROUND}
 mkdir -p ${PLAYGROUND}
